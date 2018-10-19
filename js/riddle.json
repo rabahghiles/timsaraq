@@ -1,0 +1,310 @@
+[
+    {
+      "corp": "s-ufella d ruh, s-wadda d ruh, di tlemmast d lluh",
+      "answres": [
+        "luh",
+        "ruh",
+        "aveckid",
+        "amanay"
+      ],
+      "rAnswer": "amanay",
+      "words": [
+        {
+          "kWord": "amanay",
+          "fWord": "cavalier"
+        },
+        {
+          "kWord": "tarikt",
+          "fWord": "La selle"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Ur ḥemmleɣ gma ur ḥemmleɣ w'ara t- ____",
+      "answres": [
+        "ivuden",
+        "iḥemlen",
+        "iqadren",
+        "yewten"
+      ],
+      "rAnswer": "yewten",
+      "words": [],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Tecrureq tebrureq, teɣli ar temda teεraq",
+      "answres": [
+        "Iṭij",
+        "Anzar",
+        "Tisegnit",
+        "taqudirt"
+      ],
+      "rAnswer": "Tisegnit",
+      "words": [
+          {
+              "kWord": "tamda",
+              "fWord": "Une mare"
+          }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Zzit-iw d win n ɛemmi, di yiwet n txabit ur dduklen",
+      "answres": [
+        "Zzit",
+        "Aman",
+        "Skar d lemlaḥ",
+        "tamellalt"
+      ],
+      "rAnswer": "tamellalt",
+      "words": [
+        {
+          "kWord": "Taxabit",
+          "fWord": "Une jarre"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Afus deg fus, aɛeqqa ad yaweḍ ar ssus",
+      "answres": [
+        "Azemur",
+        "tiweḍfin",
+        "aɛeqqa",
+        "tizizwin"
+      ],
+      "rAnswer": "tiweḍfin",
+      "words": [
+        {
+          "kWord": "Ssus",
+          "fWord": "L'endroit"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "win ictaqen ____ ur yufi later-is, wi (t)t-yes3an d ayla ur yessin ________",
+      "answres": [
+        "awal,azal-is",
+        "lehna,azal-is",
+        "aɣrum, azal-is",
+        "vavas,amkanis"
+      ],
+      "rAnswer": "lehna,azal-is",
+      "words": [],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Win yeγɣan ad ijareγ arfiq atyeǧǧ ar tegnitt n ____",
+      "answres": [
+        "ddiq",
+        "lxiq",
+        "lfarḥ",
+        "ṣaḥ"
+      ],
+      "rAnswer": "ddiq",
+      "words": [
+        {
+          "kWord": "Tagnitt",
+          "fWord": "Une situation"
+        },
+        {
+          "kWord": "Ddiq",
+          "fWord": "Situation difficile"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Win yeγɣan ad yuzur yirqiq Win yevghan ad yesgem _____",
+      "answres": [
+        "yirqiq",
+        "yiḥdiq",
+        "yilqiq",
+        "yimɣur"
+      ],
+      "rAnswer": "yilqiq",
+      "words": [
+        {
+          "kWord": "Ad yesgem",
+          "fWord": "grand de taille"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Itedu ar zdat, ur itedu ar defir, ur yelsi acetiḍ, ur t-ineq usemmiḍ, ur t-ineq ukufir",
+      "answres": [
+        "Tili",
+        "Lweqt",
+        "Amdan",
+        "Asif"
+      ],
+      "rAnswer": "Lweqt",
+      "words": [
+        {
+          "kWord": "Akufir",
+          "fWord": "Grande chaleur"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Ssin vedden, ssin redden, ssin katen sak sak",
+      "answres": [
+        "Imeqyasen",
+        "Ifurkawen",
+        "azeṭa",
+        "iɣuraf"
+      ],
+      "rAnswer": "azeṭa",
+      "words": [],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Ma yif-ik gma-k ____, Kker s-afras d-ttelqim. Ma yif-ik gma-k leγruǧ, γnu s-lyaǧur urqim. Ma yif-ik gma-k _____ a yaḥγiγ xdem naɣ qim.",
+      "answres": [
+        "Leɣrus,meṭu",
+        "Leɣrus,leγruǧ",
+        "leγruǧ,meṭu",
+        "meṭu,Leɣrus"
+      ],
+      "rAnswer": "Leɣrus,meṭu",
+      "words": [],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Tesbaɛbaɛ tixsi, uzlen-d izamaren",
+      "answres": [
+        "lwaɛda",
+        "Tala",
+        "amane",
+        "ṭγel"
+      ],
+      "rAnswer": "ṭγel",
+      "words": [],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Yequmec iḥezzem, yesseblaε azrem",
+      "answres": [
+        "Tili",
+        "Lmesbaḥ",
+        "Tafat",
+        "Taluft"
+      ],
+      "rAnswer": "Lmesbaḥ",
+      "words": [
+        {
+          "kWord": "iḥezzem",
+          "fWord": "Mis une ceinture"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Nettat am lbunya, araw-is ɣelγen meya",
+      "answres": [
+        "Tadelaɛt",
+        "Taččinatt",
+        "Taremant",
+        "Tafequst"
+      ],
+      "rAnswer": "Taremant",
+      "words": [],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Itedu iεebba am ssin, Yeṭegir defir-s tiγexsisin",
+      "answres": [
+        "a3ewdiw",
+        "Azgar",
+        "Aɣyul",
+        "alɣem"
+      ],
+      "rAnswer": "Aɣyul",
+      "words": [],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Ttazeggaɣt am lmarǧan, fella-s ur ttezzin yizan",
+      "answres": [
+        "Tafat",
+        "Lmarǧan",
+        "Tacemaɛt",
+        "Times"
+      ],
+      "rAnswer": "Times",
+      "words": [
+        {
+          "kWord": "Lmarǧan",
+          "fWord": "Le corail"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Zegrent ur γzigent",
+      "answres": [
+        "Tafat",
+        "Tili",
+        "Tidett",
+        "Aman"
+      ],
+      "rAnswer": "Tili",
+      "words": [],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Ṭaq ittak-itt i Ṭaq, sem ines d aḥaraq",
+      "answres": [
+        "Aṛez",
+        "Artila",
+        "Tizizwit",
+        "Tiɣirdemt"
+      ],
+      "rAnswer": "Tiɣirdemt",
+      "words": [
+        {
+          "kWord": "D aḥaraq",
+          "fWord": "Qui fait mal"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Takkazet n areqqiq, yenjar uḥdiq",
+      "answres": [
+        "Takkazet",
+        "Taɣanimt",
+        "Azrem",
+        "Asalas"
+      ],
+      "rAnswer": "Azrem",
+      "words": [
+        {
+          "kWord": "Areqqiq",
+          "fWord": "Bien droit"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    },
+    {
+      "corp": "Taklatin, di tekwatin",
+      "answres": [
+        "Taklatin",
+        "Allen",
+        "Tilawin",
+        "Tizemrin"
+      ],
+      "rAnswer": "Allen",
+      "words": [
+        {
+          "kWord": "Tikwatin",
+          "fWord": "Orbites"
+        }
+      ],
+      "author": "Ɣiles Raγah"
+    }
+]

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Un quizz en langue kabyle (Timsaɛraq)."/>
+    <meta name="keywords" content="quizz, kabyle, Timsaɛraq" />
+    <title>Timsaɛraq | Csi-To</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127796420-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-127796420-1');
+    </script>
+    <link rel="stylesheet" href="css/quizz.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="bloc bloc0" id="bloc0">
+        <div class="sbloc0">
+            <p>Thegaḍ imanik(m) aken ad tturareḍ ?</p>
+            <button  id="go" class="quizz_button start">Ad uraraɣ</button>
+            <p>" Win yeγɣan taqγaylit, yissin tira-s"</p>
+            <p>- mulud nat mamar -</p>
+        </div>
+    </div>
+    
+    
+    <div class="bloc bloc1" id="bloc1">
+        <div class="quizz_header">
+            <span>Csi To</span>
+            <span>Timsaɛraq</span>
+        </div>
+        <div class="quizz_body">
+        
+            <div class="quizz_body_header">
+                <div>Timsaɛrat : <span id="nbr_question">1</span> / <span id="nbr_total_question">5</span></div>
+                <div class="loader" id="loader">20</div>
+            </div>
+            <div class="quizz_body_content">
+               <div class="cbq">
+                    <p class="quizz_body_question" id="quizz_body_question">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptatibus praesentium odio officiis fugiat vero ipsum deserunt, autem doloremque eos? Vel officiis hic a laudantium explicabo deserunt omnis, perferendis dolore.
+                    </p>
+               </div>
+                <div class="quizz_bodyu_author">
+                    sɣur : <span id="author_question">Ghiles Rabah</span>
+                </div>
+                <form class="quizz_form" id="quizz_form">
+                    <div class="container_respense" id="container_respense">
+                        <label>
+                           respense 1 <input type="radio" name="respense" class="respense" value="rep1">
+                        </label>
+                        <label>
+                           respense 2 <input type="radio" name="respense" class="respense" value="rep2">
+                        </label>
+                        <label>
+                           respense 3 <input type="radio" name="respense" class="respense" value="rep3">
+                        </label>
+                        <label>
+                           respense 4 <input type="radio" name="respense" class="respense" value="rep4">
+                        </label>
+                    </div>
+                    <button class="quizz_button">Igarrez</button>
+                </form>
+                <ul class="words" id="words"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="bloc2" class="bloc bloc2">
+        <form id="information_form" class="information_form">
+            <input type="text" placeholder="Ismik(m)" id="name">
+            <button class="quizz_button">Igarrez</button>
+        </form>
+    </div>
+    
+    <div id="bloc3" class="bloc bloc3">
+<!--    <div id="bloc3" class="bloc bloc3" style="display: block">-->
+       <div class="sbloc3">
+            <h1 id="playername">Ghiles Rabah</h1>
+            <p>Tanmirt-ik(m) imi d-urareḍ yid-naɣ, aqlak tewweded ar tagar n wurar aggi</p>
+            <p class="c_finalscore">s : <span id="finalscore" class="finalscore"> 12 </span> tneqiḍin</p>
+            <p class="c_finalscore c_lastscore" id="c_rejouer">Tikkelt taneggarut tewweded s : <span id="lastescore" class="finalscore"> 12 </span> tneqiḍin</p>
+            <button class="quizz_button start" id="rejouer">Ad ɛawdaɣ</button>
+       </div>
+    </div>
+    
+    <div class="hover hover_actif" id="hover">
+       <div class="hover_contenu">
+        <h3>CSI TO</h3>
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+       </div>
+    </div>
+
+    <script src="./js/vendor/jquery.js"></script>
+    <script src="./js/quizz.js"></script>
+    
+</body>
+</html>
