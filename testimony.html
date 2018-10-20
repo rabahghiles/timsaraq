@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Un quizz en langue kabyle (Timsaɛraq)."/>
+    <meta name="keywords" content="quizz, kabyle, Timsaɛraq, testimony, témoignages" />
+    <title>Timsaɛraq | Csi-To</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127796420-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-127796420-1');
+    </script>
+    <link rel="stylesheet" href="css/quizz.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+    
+        <div class="bloc bloc1 testimony-bloc">
+            <div class="quizz_header">
+                <span><a href="/">Timsaɛraq</a></span>
+                <span>Csi To</span>
+            </div>
+            <div class="testimony_body">
+                <p>Daggi i tzemrem aɣdeǧǧem tanagit (Votre témoignage), wa d aɣdefkem tamuɣli nwen, i tarbaɛt a yqedčen ɣef asnas (Application) aggi.</p>
+                <form class="testimony_form" id="testimony_form">
+                    <label for="testimony_name">Isem</label>
+                    <input type="text" id="testimony_name">
+                    <label for="testimony_text">Tanagit (Témoignage) <span class="colored">*</span></label>
+                    <textarea type="text" id="testimony_text"></textarea>
+                    <button class="quizz_button">ad ceg3aghe</button>
+                    <a href="/">Ad uraraɣ</a>
+                </form>
+            </div>
+            <div class="tanmirt2" id="tanmirt2">
+                <p>Tanmirt-ik(m)</p>
+            </div>
+        </div>
+    
+    
+    <script src="js/vendor/jquery.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-database.js"></script>
+    <script src="js/testimony.js"></script>
+</body>
+</html>
