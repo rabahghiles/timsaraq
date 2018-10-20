@@ -107,11 +107,12 @@ body {
     width: 160px;
     border-radius: 2px;
     color: #fff;
-    font-weight: 600;
     cursor: pointer;
     outline: none;
     float: right;
     box-shadow: 1px 1px 5px grey;
+    font-family: "lato",sans-serif;
+    font-size: 16px;
 }
 .quizz_button2{
     margin-top: 20px;

@@ -1,8 +1,20 @@
 $(function(){
     
+        // Initialiser firebase
+    var config = {
+        apiKey: "AIzaSyDI2KGE0fWk-FkPfAQXa_Zpajz9ByTt1aA",
+        authDomain: "kabylie-quizz.firebaseapp.com",
+        databaseURL: "https://kabylie-quizz.firebaseio.com",
+        projectId: "kabylie-quizz",
+        storageBucket: "kabylie-quizz.appspot.com",
+        messagingSenderId: "196927959551"
+    };
+    firebase.initializeApp(config);
     
-
-    let containerNbrQuestion = $("#nbr_question"),
+    // Déclaration des variables
+    let database = firebase.database(),
+        ref = database.ref('scores'),
+        containerNbrQuestion = $("#nbr_question"),
         containerTotalQuestion = $("#nbr_total_question"),
         containerLoader = $("#loader"),
         containerQuestion = $("#quizz_body_question"),
@@ -30,6 +42,7 @@ $(function(){
         score = 0,
         lastScore = 0,
         namePlayer = "",
+        guestName = "Amsedrid "+generateNumber();
         
         question = {},
         countDown = 0,
@@ -179,12 +192,23 @@ $(function(){
             parentLastScore.addClass("c_lastscore_actif");
         }
         lastScore = score;
+        insertToDatabase(guestName,namePlayer,score);
         setTimeout(function(){
             hoverLoader.removeClass("hover_actif");
             bloc2.css("display","none");
             bloc3.css("display","block");
         },1300);
     }
+
+    // Envoyer le score sur firebase
+    function insertToDatabase(guest,name,score){
+        let data = {
+                    guest : guest,
+                    name : name,
+                    score : score
+            }
+        ref.push(data);
+    };
     
     // mettre les écouteurs d'événement sur les buttons des reponses
     function setEventListner(){
@@ -192,6 +216,11 @@ $(function(){
             $(this).parent().siblings().removeClass("label_actif");
             $(this).parent().addClass("label_actif");    
         })
+    }
+
+    // Générer un nombre aléatoir
+    function generateNumber(){
+        return Math.round(Math.random()*1000000);
     }
     
     
